@@ -1,0 +1,27 @@
+.content_modal {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.modal_base {
+  width: 90%;
+  background-color: rgb(62, 56, 47);
+  height: 85%;
+}
+
+.modal_base svg {
+  color: #fff;
+  font-size: 2.3rem;
+}
+
+.modal_body {
+  width: 100%;
+  height: 100%;
+}

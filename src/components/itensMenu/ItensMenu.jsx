@@ -1,7 +1,14 @@
 import styles from "./ItensMenu.module.css";
 import { FaPlus } from "react-icons/fa6";
 
-export default function ItensMenu({ name, value, img, description }) {
+export default function ItensMenu({
+  name,
+  id,
+  value,
+  img,
+  description,
+  handleClick,
+}) {
   return (
     <div className={styles.itens_menu_details}>
       <img src={img} alt="Imagem modelo" />
@@ -16,7 +23,12 @@ export default function ItensMenu({ name, value, img, description }) {
             })}
           </span>
         </p>
-        <button className={styles.btn}>
+        <button
+          className={styles.btn}
+          onClick={() => {
+            handleClick(id);
+          }}
+        >
           <FaPlus size={18} />
         </button>
       </div>

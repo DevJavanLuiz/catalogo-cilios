@@ -4,7 +4,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import ItensMenu from "../itensMenu/ItensMenu";
 
-export default function MenuDetails({ name, itens = [] }) {
+export default function MenuDetails({ name, itens = [], handleClick }) {
   const [itensMenu, setItensMenu] = useState(false);
 
   function onItensMenu() {
@@ -21,9 +21,11 @@ export default function MenuDetails({ name, itens = [] }) {
           <ItensMenu
             name={info.name}
             key={info.id}
+            id={info.id}
             description={info.description}
             img={info.img}
             value={info.value}
+            handleClick={handleClick}
           />
         ))}
     </div>

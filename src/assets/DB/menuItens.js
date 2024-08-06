@@ -11,6 +11,20 @@ export default {
           description:
             " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
           img: "/img/img-cilios.jpeg",
+          modalImgs: [
+            {
+              id: "img01",
+              url: "/img/img-cilios.jpeg",
+            },
+            {
+              id: "img01",
+              url: "/img/img-cilios.jpeg",
+            },
+            {
+              id: "img01",
+              url: "/img/img-cilios.jpeg",
+            },
+          ],
         },
         {
           id: "item02",
