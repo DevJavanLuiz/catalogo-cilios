@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+body,
+html {
   background-color: black;
+  font-family: "Montserrat", sans-serif;
 }
 .main-content {
-  background-image: url(./img/plano-de-fundo.png);
+  background-image: url("/img/plano-de-fundo.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -17,10 +19,8 @@ body {
 .container {
   width: 100%;
   max-width: 1280px;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 0.75rem;
+  margin: 0 auto;
   margin-top: 70px;
 }
 

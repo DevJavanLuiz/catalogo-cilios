@@ -9,7 +9,9 @@ function App() {
       <NavBar />
       <div className="container">
         {menuItens.menu.map((info) => {
-          return <MenuDetails key={info.id} name={info.name} />;
+          return (
+            <MenuDetails key={info.id} name={info.name} itens={info.itens} />
+          );
         })}
       </div>
     </div>

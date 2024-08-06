@@ -5,5 +5,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  margin-bottom: 30px;
+  color: #bab7b7;
+  flex-wrap: wrap;
+}
+
+.menu_details h1 {
+  font-size: 1.2rem;
+}
+
+.menu_details button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.menu_details button svg {
+  color: #bab7b7;
+  font-size: 2.2rem;
 }

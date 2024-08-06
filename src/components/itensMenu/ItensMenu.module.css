@@ -1,0 +1,44 @@
+.itens_menu_details {
+  width: 100%;
+  padding: 10px 0 0;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-bottom: 1px solid #bab7b7;
+}
+
+.itens_menu_details img {
+  width: 90px;
+  box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.141);
+  height: 90px;
+  margin-right: 20px;
+}
+
+.itens {
+  display: flex;
+  flex-direction: column;
+}
+
+.itens p {
+  font-size: 0.7rem;
+  color: #bab7b7;
+}
+.itens h2 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.itens h3 {
+  font-size: 0.5rem;
+  color: #bab7b7;
+  margin-bottom: 5px;
+}
+
+.itens span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.btn {
+  color: #bab7b7;
+  margin-left: auto;
+}
