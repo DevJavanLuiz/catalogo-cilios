@@ -11,23 +11,26 @@ export default function MenuDetails({ name, itens = [], handleClick }) {
     setItensMenu((prevState) => !prevState);
   }
   return (
-    <div className={styles.menu_details}>
+    <div
+      className={`${styles.menu_details}  ${
+        itensMenu && styles.menu_details_open
+      }`}
+    >
       <h1>{name}</h1>
       <button onClick={onItensMenu}>
         {itensMenu ? <IoIosArrowDown /> : <IoIosArrowForward />}
       </button>
-      {itensMenu &&
-        itens.map((info) => (
-          <ItensMenu
-            name={info.name}
-            key={info.id}
-            id={info.id}
-            description={info.description}
-            img={info.img}
-            value={info.value}
-            handleClick={handleClick}
-          />
-        ))}
+      {itens.map((info) => (
+        <ItensMenu
+          name={info.name}
+          key={info.id}
+          id={info.id}
+          description={info.description}
+          img={info.img}
+          value={info.value}
+          handleClick={handleClick}
+        />
+      ))}
     </div>
   );
 }

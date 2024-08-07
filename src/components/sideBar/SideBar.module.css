@@ -1,0 +1,39 @@
+.side_bar {
+  height: 100%;
+  background-color: #000000;
+  box-shadow: 200px 0px 30px 0px rgba(0, 0, 0, 0.666);
+  width: 70%;
+  margin-top: -2px;
+  position: fixed;
+  border-right: 2px solid #bab7b7;
+  z-index: 1000;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.logo img {
+  width: 180px;
+}
+
+.menu_itens {
+  padding: 50px 35px;
+}
+
+.menu_itens li a {
+  padding: 20px 0px;
+  margin-bottom: 10px;
+  list-style: none;
+  border-bottom: 1px solid #bab7b7;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #bab7b7;
+}
+
+.menu_itens li svg {
+  font-size: 1.3rem;
+}

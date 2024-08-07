@@ -8,6 +8,12 @@
   position: fixed;
   top: 0;
   background-color: black;
+  z-index: 900;
+}
+
+.navbar button {
+  border: none;
+  background: transparent;
 }
 
 .navbar svg {
