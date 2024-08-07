@@ -24,6 +24,26 @@ export default {
               id: "img01",
               url: "/img/img-cilios.jpeg",
             },
+            {
+              id: "img01",
+              url: "/img/img-cilios.jpeg",
+            },
+            {
+              id: "img01",
+              url: "/img/img-cilios.jpeg",
+            },
+            {
+              id: "img01",
+              url: "/img/img-cilios.jpeg",
+            },
+            {
+              id: "img01",
+              url: "/img/img-cilios.jpeg",
+            },
+            {
+              id: "img01",
+              url: "/img/img-cilios.jpeg",
+            },
           ],
         },
         {
