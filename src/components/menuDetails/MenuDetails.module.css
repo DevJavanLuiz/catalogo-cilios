@@ -1,8 +1,6 @@
 .menu_details {
   width: 100%;
   padding: 20px;
-  height: 60px;
-  overflow: hidden;
   border-bottom: 2px solid grey;
   display: flex;
   justify-content: space-between;
@@ -10,13 +8,8 @@
   margin-bottom: 30px;
   color: #bab7b7;
   flex-wrap: wrap;
-  transition: all 600ms ease-in-out;
 }
 
-.menu_details_open {
-  height: 600px;
-  max-height: max-content;
-}
 .menu_details h1 {
   font-size: 1.2rem;
 }

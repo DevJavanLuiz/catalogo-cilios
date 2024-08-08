@@ -1,0 +1,23 @@
+.location_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.location_content p {
+  color: grey;
+  font-style: italic;
+  font-size: 0.7rem;
+  padding: 10px;
+  background-color: black;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 30px 0;
+}
+.logo img {
+  width: 180px;
+}

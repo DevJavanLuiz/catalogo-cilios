@@ -1,0 +1,50 @@
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 100px 0 50px 0;
+}
+.logo img {
+  width: 120px;
+}
+.item_contact {
+  display: flex;
+  text-align: center;
+}
+.item_contact a {
+  text-decoration: none;
+  color: #bab7b7;
+  font-size: 0.8rem;
+}
+.item_contact a:hover {
+  color: #fff;
+}
+
+.item_contact img {
+  width: 50px;
+}
+
+.contacts_content {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.description_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #000000;
+  padding: 30px 20px;
+  height: 300px;
+}
+.description_contact p {
+  font-size: 0.7rem;
+  color: grey;
+  font-style: italic;
+  text-align: center;
+}
