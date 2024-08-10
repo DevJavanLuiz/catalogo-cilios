@@ -2,7 +2,12 @@ import ModalBase from "../modal/ModalBase";
 import styles from "./ModalDescription.module.css";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { motion } from "framer-motion";
-export default function ModalDescription({ isOpen, handleClose, imgs = [] }) {
+export default function ModalDescription({
+  isOpen,
+  handleClose,
+  imgs = [],
+  title,
+}) {
   const container = {
     hidden: { opacity: 1, scale: 0 },
     visible: {
@@ -26,7 +31,7 @@ export default function ModalDescription({ isOpen, handleClose, imgs = [] }) {
   return (
     <ModalBase isOpen={isOpen} handleClose={handleClose}>
       <div className={styles.logo_img}>
-        <img src="/img/logo.png" alt="" />
+        <img src="/img/logo.png" alt="logo" />
       </div>
       <motion.div
         variants={container}
@@ -44,7 +49,9 @@ export default function ModalDescription({ isOpen, handleClose, imgs = [] }) {
         ))}
       </motion.div>
       <div className={styles.btn_redirection}>
-        <a href="#">
+        <a
+          href={`https://api.whatsapp.com/send?phone=558185187616&text=Olá, estou interessada em fazer o *${title}*, pode me passar mais informaçoes?`}
+        >
           Agende seu horário <IoLogoWhatsapp />
         </a>
       </div>

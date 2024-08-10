@@ -35,6 +35,7 @@ function App() {
         isOpen={modalContentSelected?.id}
         handleClose={onCloseModal}
         imgs={modalContentSelected?.modalImgs}
+        title={modalContentSelected?.name}
       />
     </>
   );

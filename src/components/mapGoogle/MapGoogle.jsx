@@ -1,11 +1,11 @@
 import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
-
+import config from "../../config";
 import styles from "./MapGoogle.module.css";
 
 export default function MyMap() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyCEg2kFx2Lyn8U7lUn5k2aHoVjU2-3rGfo",
+    googleMapsApiKey: config.PUBLICK_KEY_GOOGLE_MAPS,
   });
 
   const center = {

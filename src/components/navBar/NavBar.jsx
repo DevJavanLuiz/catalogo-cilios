@@ -27,7 +27,7 @@ export default function NavBar() {
           </button>
         )}
       </div>
-      {isOpenSideBar && <SideBar onCloseSideBar={closeSideBar} />}
+      <SideBar onCloseSideBar={closeSideBar} isOpen={isOpenSideBar} />
     </>
   );
 }
