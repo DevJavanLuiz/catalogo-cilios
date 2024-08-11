@@ -11,11 +11,9 @@ export default function MenuDetails({ name, itens = [], handleClick }) {
     setItensMenu((prevState) => !prevState);
   }
   return (
-    <div className={styles.menu_details}>
+    <div className={styles.menu_details} onClick={onItensMenu}>
       <h1>{name}</h1>
-      <button onClick={onItensMenu}>
-        {itensMenu ? <IoIosArrowDown /> : <IoIosArrowForward />}
-      </button>
+      <button>{itensMenu ? <IoIosArrowDown /> : <IoIosArrowForward />}</button>
       {itensMenu &&
         itens.map((info) => (
           <ItensMenu

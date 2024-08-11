@@ -10,7 +10,12 @@ export default function ItensMenu({
   handleClick,
 }) {
   return (
-    <div className={styles.itens_menu_details}>
+    <div
+      className={styles.itens_menu_details}
+      onClick={() => {
+        handleClick(id);
+      }}
+    >
       <img src={img} alt="Imagem modelo" />
       <div className={styles.itens}>
         <h2>{name}</h2>
@@ -23,12 +28,7 @@ export default function ItensMenu({
             })}
           </span>
         </p>
-        <button
-          className={styles.btn}
-          onClick={() => {
-            handleClick(id);
-          }}
-        >
+        <button className={styles.btn}>
           <FaPlus size={18} />
         </button>
       </div>
