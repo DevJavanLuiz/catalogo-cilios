@@ -14,10 +14,16 @@
 .navbar button {
   border: none;
   background: transparent;
+  cursor: pointer;
 }
 
 .navbar svg {
   font-size: 30px;
   color: #bab7b7;
   margin-left: 20px;
+  transition: all 300ms ease-out;
+}
+
+.navbar svg:hover {
+  color: white;
 }

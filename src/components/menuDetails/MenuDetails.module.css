@@ -12,6 +12,11 @@
 
 .menu_details h1 {
   font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+}
+.menu_details h1:hover {
+  color: #ffffff;
 }
 
 .menu_details button {
@@ -23,4 +28,8 @@
 .menu_details button svg {
   color: #bab7b7;
   font-size: 2.2rem;
+  transition: all 300ms ease-out;
+}
+.menu_details button svg:hover {
+  color: #ffffff;
 }

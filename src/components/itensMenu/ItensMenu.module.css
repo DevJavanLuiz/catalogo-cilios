@@ -5,6 +5,7 @@
   margin-bottom: 20px;
   margin-top: 10px;
   border-bottom: 1px solid #bab7b7;
+  cursor: pointer;
 }
 
 .itens_menu_details img {
@@ -28,6 +29,11 @@
 .itens h2 {
   font-size: 1rem;
   margin-bottom: 5px;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+}
+.itens h2:hover {
+  color: #ffffff;
 }
 .itens h3 {
   font-size: 0.5rem;

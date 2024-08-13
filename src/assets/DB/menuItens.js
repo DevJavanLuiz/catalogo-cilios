@@ -16,6 +16,22 @@ export default {
               id: "img01",
               url: "/img/efeito-brasileiro.jpeg",
             },
+            {
+              id: "img02",
+              url: "/img/efeito-brasileiro.jpeg",
+            },
+            {
+              id: "img03",
+              url: "/img/efeito-brasileiro.jpeg",
+            },
+            {
+              id: "img04",
+              url: "/img/efeito-brasileiro.jpeg",
+            },
+            {
+              id: "img05",
+              url: "/img/efeito-brasileiro.jpeg",
+            },
           ],
         },
         {

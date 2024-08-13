@@ -1,7 +1,7 @@
 .logo {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 100px 0 50px 0;
 }
 .logo img {
@@ -38,13 +38,14 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #000000;
+
   padding: 30px 20px;
   height: 300px;
 }
 .description_contact p {
   font-size: 0.7rem;
-  color: grey;
+  color: rgb(171, 169, 169);
   font-style: italic;
   text-align: center;
+  letter-spacing: 0.2rem;
 }

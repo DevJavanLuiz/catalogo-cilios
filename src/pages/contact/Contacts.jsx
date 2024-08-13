@@ -7,13 +7,16 @@ export default function Contacts() {
       </div>
       <div className={styles.contacts_content}>
         <div className={styles.item_contact}>
-          <a href="#">
+          <a href="https://www.instagram.com/ciliosbysabrina_/" target="_blank">
             <img src="/img/instagram.png" alt="logo instagram" />
             <p>@instagram</p>
           </a>
         </div>
         <div className={styles.item_contact}>
-          <a href="#">
+          <a
+            href="https://api.whatsapp.com/send?phone=558185187616&text=Olá adorei seus modelos, pode me passar o catalog?"
+            target="_blank"
+          >
             <img src="public/img/whatsapp.png" alt="logo whatsapp" />
             <p>(81) 9 8518-7616</p>
           </a>
