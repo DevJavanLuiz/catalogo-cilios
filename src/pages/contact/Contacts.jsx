@@ -17,7 +17,7 @@ export default function Contacts() {
             href="https://api.whatsapp.com/send?phone=558185187616&text=Olá adorei seus modelos, pode me passar o catalog?"
             target="_blank"
           >
-            <img src="public/img/whatsapp.png" alt="logo whatsapp" />
+            <img src="/img/whatsapp.png" alt="logo whatsapp" />
             <p>(81) 9 8518-7616</p>
           </a>
         </div>
