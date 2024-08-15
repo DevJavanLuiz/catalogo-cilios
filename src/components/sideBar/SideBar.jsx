@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function SideBar({ onCloseSideBar, isOpen }) {
   const links = [
     {
-      name: "Catalogo",
+      name: "Catálogo",
       icon: <FaList />,
       url: "/",
     },
