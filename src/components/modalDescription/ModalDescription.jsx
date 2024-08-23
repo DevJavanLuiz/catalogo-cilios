@@ -31,7 +31,10 @@ export default function ModalDescription({
   return (
     <ModalBase isOpen={isOpen} handleClose={handleClose}>
       <div className={styles.logo_img}>
-        <img src="/img/logo.png" alt="logo" />
+        <img
+          src="/img/logo.png"
+          alt="logo da loja com 'C' e 'S' grandes e o nome 'cilios by sabrina' em baixo"
+        />
       </div>
       <motion.div
         variants={container}
@@ -44,7 +47,7 @@ export default function ModalDescription({
             src={img.url}
             key={img.id}
             variants={item}
-            alt="Modelo imagem"
+            alt={img.alt}
           ></motion.img>
         ))}
       </motion.div>

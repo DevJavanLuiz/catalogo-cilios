@@ -8,17 +8,17 @@ export default function SideBar({ onCloseSideBar, isOpen }) {
   const links = [
     {
       name: "Catálogo",
-      icon: <FaList />,
+      icon: <FaList aria-label="icone de lita" />,
       url: "/",
     },
     {
       name: "Localização",
-      icon: <MdLocationPin />,
+      icon: <MdLocationPin aria-label="icone de localização" />,
       url: "/location",
     },
     {
       name: "Contatos",
-      icon: <MdPhone />,
+      icon: <MdPhone aria-label="icone de telefone" />,
       url: "/contacts",
     },
   ];
@@ -49,7 +49,10 @@ export default function SideBar({ onCloseSideBar, isOpen }) {
       style={{ transform: isOpen && " translateX(0)" }}
     >
       <div className={styles.logo}>
-        <img src="/img/logo-side-bar.png" alt="logo" />
+        <img
+          src="/img/logo-side-bar.png"
+          alt="logo da loja com 'C' e 'S' grandes e o nome 'cilios by sabrina' em baixo"
+        />
       </div>
       {isOpen && (
         <motion.ul

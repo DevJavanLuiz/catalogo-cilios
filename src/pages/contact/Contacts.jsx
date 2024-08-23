@@ -3,12 +3,18 @@ export default function Contacts() {
   return (
     <div>
       <div className={styles.logo}>
-        <img src="/img/logo-side-bar.png" alt="logo" />
+        <img
+          src="/img/logo-side-bar.png"
+          alt="logo da loja com 'C' e 'S' grandes e o nome 'cilios by sabrina' em baixo"
+        />
       </div>
       <div className={styles.contacts_content}>
         <div className={styles.item_contact}>
           <a href="https://www.instagram.com/ciliosbysabrina_/" target="_blank">
-            <img src="/img/instagram.png" alt="logo instagram" />
+            <img
+              src="/img/instagram.png"
+              alt="logo instagram cor gradient mesclando azul e rosa"
+            />
             <p>@instagram</p>
           </a>
         </div>
@@ -17,7 +23,7 @@ export default function Contacts() {
             href="https://api.whatsapp.com/send?phone=558185187616&text=Olá adorei seus modelos, pode me passar o catalog?"
             target="_blank"
           >
-            <img src="/img/whatsapp.png" alt="logo whatsapp" />
+            <img src="/img/whatsapp.png" alt="logo whatsapp verde com branco" />
             <p>(81) 9 8518-7616</p>
           </a>
         </div>

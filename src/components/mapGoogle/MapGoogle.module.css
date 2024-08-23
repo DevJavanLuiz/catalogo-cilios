@@ -1,5 +1,6 @@
 .map {
-  width: 330px;
-  height: 250px;
+  width: 100%;
+  max-width: 650px;
+  height: 350px;
   margin-bottom: 20px;
 }

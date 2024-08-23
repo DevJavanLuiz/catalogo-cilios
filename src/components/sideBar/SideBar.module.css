@@ -45,3 +45,14 @@
 .menu_itens a:hover {
   color: white;
 }
+
+@media screen and (min-width: 700px) {
+  .side_bar {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .side_bar {
+    width: 25%;
+  }
+}

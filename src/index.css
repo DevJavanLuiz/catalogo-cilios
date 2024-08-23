@@ -32,14 +32,8 @@ html {
   margin-bottom: 30px;
 }
 
-.info img {
-  max-width: 120px;
-  border-radius: 10px;
-  opacity: 0.3;
-}
 .info p {
   color: #bab7b7;
-  margin-top: 5px;
   font-size: 0.7rem;
   margin-left: 5px;
 }
@@ -61,5 +55,20 @@ html {
   .container {
     max-width: 800px;
     padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .info-content svg {
+    font-size: 2rem;
+  }
+
+  .info {
+    margin-bottom: 60px;
+  }
+
+  .info p {
+    font-size: 0.9rem;
+    max-width: 39rem;
   }
 }

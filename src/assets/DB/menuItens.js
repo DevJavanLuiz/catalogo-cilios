@@ -7,20 +7,28 @@ export default {
         {
           id: "item01",
           name: "Volume Brasileiro",
+          alt: "volume mais comum com cilios menores e menos volumoso",
           value: 80.0,
           description:
-            " Uma proposta mais sútil. Ótima opção pra quem quer da um destaque no olhar de maneira singela. Manutenção Prazo entre 20 a 25 dias, com 40% dos d",
+            " Uma proposta mais sútil. Ótima opção pra quem quer da um destaque no olhar de maneira singela.",
           img: "/img/volume-brasileiro.jpeg",
           modalImgs: [
             {
               id: "img01",
               url: "/img/volume-brasileiro.jpeg",
+              alt: "volume mais comum com cilios menores e menos volumoso",
+            },
+            {
+              id: "img10",
+              url: "/img/efeito-brasileiro.jpeg",
+              alt: "volume mais comum com cilios menores e menos volumoso",
             },
           ],
         },
         {
           id: "item02",
           name: "Volume Egipício",
+          alt: "volume mais comum com cilios menores e mais volumoso",
           value: 100.0,
           description:
             " Uma abordagem marcante, mas sem exagero, que oferece um resultado incrível e um olhar mais intenso. Ideal para quem deseja um volume notável, mantendo a elegância e a sofisticação.",
@@ -29,12 +37,14 @@ export default {
             {
               id: "img02",
               url: "/img/volume-egipicio.jpeg",
+              alt: "volume mais comum com cilios menores e mais volumoso",
             },
           ],
         },
         {
           id: "item03",
           name: "Mega Volume",
+          alt: "volume mais comum com cilios maiores e muito mais volumosos",
           value: 130.0,
           description:
             "A melhor opção para as amantes de volume e durabilidade. Resultado de um olhar marcante e volumosos",
@@ -43,10 +53,12 @@ export default {
             {
               id: "img03",
               url: "/img/mega-volume.jpeg",
+              alt: "volume mais comum com cilios maiores e muito mais volumosos",
             },
             {
               id: "img04",
               url: "/img/efeito-mega.jpeg",
+              alt: "volume mais comum com cilios maiores e muito mais volumosos",
             },
           ],
         },
@@ -59,6 +71,7 @@ export default {
         {
           id: "item04",
           name: "Efeito Fox",
+          alt: "volume mais esticado com cilios maiores e mais volumosos",
           value: 100.0,
           description:
             "Uma das melhores opções para quem procura um olhar mais alongado e marcante.",
@@ -67,12 +80,14 @@ export default {
             {
               id: "img05",
               url: "/img/volume-fox.jpeg",
+              alt: "volume mais esticado com cilios maiores e mais volumosos",
             },
           ],
         },
         {
           id: "item05",
           name: "Efeito Molhado",
+          alt: "volume com aparecenia de molhado com cilios maiores, mais juntos e bem volumosos",
           value: 130.0,
           description:
             "Uma escolha incrível, para quem deseja sair dos comuns.sendo assim, mantendo a beleza e o destaque no olhar.",
@@ -81,6 +96,7 @@ export default {
             {
               id: "img06",
               url: "/img/volume-molhado.jpeg",
+              alt: "volume com aparecenia de molhado com cilios maiores, mais juntos e bem volumosos",
             },
           ],
         },
@@ -93,6 +109,7 @@ export default {
         {
           id: "item06",
           name: "Design com henna",
+          alt: "Sobrancelha desenhada com uso da henna",
           value: 35.0,
           description:
             " Design personalizado com henna, pra quem busca um olhar marcante.",
@@ -101,16 +118,19 @@ export default {
             {
               id: "img07",
               url: "/img/sombrancelha.jpeg",
+              alt: "Sobrancelha desenhada com uso da henna",
             },
             {
               id: "img08",
               url: "/img/henna.jpeg",
+              alt: "Sobrancelha desenhada com uso da henna",
             },
           ],
         },
         {
           id: "item07",
           name: "Design personalizado",
+          alt: "Sobrancelha desenhada sem uso da henna",
           value: 20.0,
           description:
             " Design personalizado, trazendo naturalidade e um trabalho limpo",
@@ -119,6 +139,7 @@ export default {
             {
               id: "img09",
               url: "/img/Design-personalizado.jpeg",
+              alt: "Sobrancelha desenhada sem uso da henna",
             },
           ],
         },

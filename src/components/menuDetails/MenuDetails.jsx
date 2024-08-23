@@ -13,7 +13,13 @@ export default function MenuDetails({ name, itens = [], handleClick }) {
   return (
     <div className={styles.menu_details} onClick={onItensMenu}>
       <h1>{name}</h1>
-      <button>{itensMenu ? <IoIosArrowDown /> : <IoIosArrowForward />}</button>
+      <button aria-label="botão abre e fecha details">
+        {itensMenu ? (
+          <IoIosArrowDown aria-label="botão com icone de seta com sentido para baixo" />
+        ) : (
+          <IoIosArrowForward aria-label="botão com icone de seta com sentido para direita" />
+        )}
+      </button>
       {itensMenu &&
         itens.map((info) => (
           <ItensMenu
@@ -22,6 +28,7 @@ export default function MenuDetails({ name, itens = [], handleClick }) {
             id={info.id}
             description={info.description}
             img={info.img}
+            alt={info.alt}
             value={info.value}
             handleClick={handleClick}
           />

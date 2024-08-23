@@ -40,6 +40,7 @@
   font-size: 0.5rem;
   color: #bab7b7;
   margin-bottom: 5px;
+  max-width: 26rem;
 }
 
 .itens span {
@@ -50,4 +51,30 @@
 .btn {
   color: #bab7b7;
   margin-left: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .itens_menu_details {
+    justify-content: start;
+  }
+  .itens_menu_details img {
+    width: 120px;
+    min-width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+
+  .itens p {
+    font-size: 0.8rem;
+  }
+  .itens h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .itens h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    max-width: 50rem;
+  }
 }

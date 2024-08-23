@@ -15,6 +15,7 @@
   text-decoration: none;
   color: #bab7b7;
   font-size: 0.8rem;
+  font-weight: bold;
 }
 .item_contact a:hover {
   color: #fff;
@@ -44,8 +45,34 @@
 }
 .description_contact p {
   font-size: 0.7rem;
+  background-color: rgba(0, 0, 0, 0.778);
   color: rgb(171, 169, 169);
   font-style: italic;
   text-align: center;
   letter-spacing: 0.2rem;
+}
+
+@media screen and (min-width: 800px) {
+  .logo img {
+    width: 170px;
+  }
+
+  .item_contact a {
+    font-size: 0.9rem;
+  }
+
+  .item_contact img {
+    width: 60px;
+  }
+
+  .contacts_content {
+    padding: 30px;
+  }
+
+  .description_contact p {
+    background-color: black;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    max-width: 50rem;
+  }
 }

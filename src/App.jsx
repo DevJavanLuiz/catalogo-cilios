@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <div className="info-content">
-        <BsInfoCircleFill />
+        <BsInfoCircleFill aria-label="icone de informação" />
         <div className="info">
           {/* <img src="/img/info-manutencao.jpeg" alt="" /> */}
           <p>

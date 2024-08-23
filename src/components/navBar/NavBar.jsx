@@ -20,11 +20,17 @@ export default function NavBar() {
     <>
       <div className={styles.navbar}>
         {isOpenSideBar ? (
-          <button onClick={closeSideBar}>
+          <button
+            aria-label="botão 'X' fechar a sidebar"
+            onClick={closeSideBar}
+          >
             <RiCloseLargeFill />
           </button>
         ) : (
-          <button onClick={openSideBar}>
+          <button
+            aria-label="botão 'Hamburguer' abir a sidebar"
+            onClick={openSideBar}
+          >
             <AiOutlineMenu />
           </button>
         )}

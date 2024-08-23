@@ -8,6 +8,7 @@ export default function ItensMenu({
   img,
   description,
   handleClick,
+  alt,
 }) {
   return (
     <div
@@ -16,7 +17,7 @@ export default function ItensMenu({
         handleClick(id);
       }}
     >
-      <img src={img} alt="Imagem modelo" />
+      <img src={img} alt={alt} />
       <div className={styles.itens}>
         <h2>{name}</h2>
         <h3>{description}</h3>
@@ -29,7 +30,7 @@ export default function ItensMenu({
           </span>
         </p>
         <button className={styles.btn}>
-          <FaPlus size={18} />
+          <FaPlus size={18} aria-label="icone de ver-mais abre o modal" />
         </button>
       </div>
     </div>
