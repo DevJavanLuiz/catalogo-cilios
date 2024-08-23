@@ -1,17 +1,19 @@
-import { useState } from "react";
 import SideBar from "../sideBar/SideBar";
 import styles from "./NavBar.module.css";
+
 import { AiOutlineMenu } from "react-icons/ai";
 import { RiCloseLargeFill } from "react-icons/ri";
 
+import { useState } from "react";
+
 export default function NavBar() {
-  const [isOpenSideBar, setisOpenSideBar] = useState(false);
+  const [isOpenSideBar, setIsOpenSideBar] = useState(false);
 
   function openSideBar() {
-    setisOpenSideBar(true);
+    setIsOpenSideBar(true);
   }
   function closeSideBar() {
-    setisOpenSideBar(false);
+    setIsOpenSideBar(false);
   }
 
   return (

@@ -9,28 +9,12 @@ export default {
           name: "Volume Brasileiro",
           value: 80.0,
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
-          img: "/img/efeito-brasileiro.jpeg",
+            " Uma proposta mais sútil. Ótima opção pra quem quer da um destaque no olhar de maneira singela. Manutenção Prazo entre 20 a 25 dias, com 40% dos d",
+          img: "/img/volume-brasileiro.jpeg",
           modalImgs: [
             {
               id: "img01",
-              url: "/img/efeito-brasileiro.jpeg",
-            },
-            {
-              id: "img02",
-              url: "/img/efeito-brasileiro.jpeg",
-            },
-            {
-              id: "img03",
-              url: "/img/efeito-brasileiro.jpeg",
-            },
-            {
-              id: "img04",
-              url: "/img/efeito-brasileiro.jpeg",
-            },
-            {
-              id: "img05",
-              url: "/img/efeito-brasileiro.jpeg",
+              url: "/img/volume-brasileiro.jpeg",
             },
           ],
         },
@@ -39,11 +23,11 @@ export default {
           name: "Volume Egipício",
           value: 100.0,
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
+            " Uma abordagem marcante, mas sem exagero, que oferece um resultado incrível e um olhar mais intenso. Ideal para quem deseja um volume notável, mantendo a elegância e a sofisticação.",
           img: "/img/volume-egipicio.jpeg",
           modalImgs: [
             {
-              id: "img01",
+              id: "img02",
               url: "/img/volume-egipicio.jpeg",
             },
           ],
@@ -53,12 +37,16 @@ export default {
           name: "Mega Volume",
           value: 130.0,
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
+            "A melhor opção para as amantes de volume e durabilidade. Resultado de um olhar marcante e volumosos",
           img: "/img/mega-volume.jpeg",
           modalImgs: [
             {
-              id: "img01",
+              id: "img03",
               url: "/img/mega-volume.jpeg",
+            },
+            {
+              id: "img04",
+              url: "/img/efeito-mega.jpeg",
             },
           ],
         },
@@ -69,44 +57,30 @@ export default {
       name: "Tendências",
       itens: [
         {
-          id: "item01",
+          id: "item04",
           name: "Efeito Fox",
           value: 100.0,
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
-          img: "/img/efeito-brasileiro.jpeg",
+            "Uma das melhores opções para quem procura um olhar mais alongado e marcante.",
+          img: "/img/volume-fox.jpeg",
           modalImgs: [
             {
-              id: "img01",
-              url: "/img/efeito-brasileiro.jpeg",
+              id: "img05",
+              url: "/img/volume-fox.jpeg",
             },
           ],
         },
         {
-          id: "item02",
-          name: "Volume Kim",
-          value: 100.0,
-          description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
-          img: "/img/volume-egipicio.jpeg",
-          modalImgs: [
-            {
-              id: "img01",
-              url: "/img/volume-egipicio.jpeg",
-            },
-          ],
-        },
-        {
-          id: "item03",
+          id: "item05",
           name: "Efeito Molhado",
           value: 130.0,
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
-          img: "/img/mega-volume.jpeg",
+            "Uma escolha incrível, para quem deseja sair dos comuns.sendo assim, mantendo a beleza e o destaque no olhar.",
+          img: "/img/volume-molhado.jpeg",
           modalImgs: [
             {
-              id: "img01",
-              url: "/img/mega-volume.jpeg",
+              id: "img06",
+              url: "/img/volume-molhado.jpeg",
             },
           ],
         },
@@ -117,64 +91,34 @@ export default {
       name: "Sobrancelhas",
       itens: [
         {
-          id: "item01",
-          name: "Efeito Fox",
-          value: 100.0,
+          id: "item06",
+          name: "Design com henna",
+          value: 35.0,
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
-          img: "/img/efeito-brasileiro.jpeg",
+            " Design personalizado com henna, pra quem busca um olhar marcante.",
+          img: "/img/sombrancelha.jpeg",
           modalImgs: [
             {
-              id: "img01",
-              url: "/img/efeito-brasileiro.jpeg",
+              id: "img07",
+              url: "/img/sombrancelha.jpeg",
+            },
+            {
+              id: "img08",
+              url: "/img/henna.jpeg",
             },
           ],
         },
         {
-          id: "item02",
-          name: "Volume Kim",
-          value: 100.0,
+          id: "item07",
+          name: "Design personalizado",
+          value: 20.0,
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
-          img: "/img/volume-egipicio.jpeg",
+            " Design personalizado, trazendo naturalidade e um trabalho limpo",
+          img: "/img/Design-personalizado.jpeg",
           modalImgs: [
             {
-              id: "img01",
-              url: "/img/volume-egipicio.jpeg",
-            },
-          ],
-        },
-        {
-          id: "item03",
-          name: "Efeito Molhado",
-          value: 130.0,
-          description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
-          img: "/img/mega-volume.jpeg",
-          modalImgs: [
-            {
-              id: "img01",
-              url: "/img/mega-volume.jpeg",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: "menu04",
-      name: "Combos",
-      itens: [
-        {
-          id: "item01",
-          name: "Combinadinho Sombrancelha + Cilíos",
-          value: "A partit de R$95,00",
-          description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Impeditaperiam ab quaerat unde nemo architecto nulla, sed pariatur",
-          img: "/img/efeito-brasileiro.jpeg",
-          modalImgs: [
-            {
-              id: "img01",
-              url: "/img/efeito-brasileiro.jpeg",
+              id: "img09",
+              url: "/img/Design-personalizado.jpeg",
             },
           ],
         },

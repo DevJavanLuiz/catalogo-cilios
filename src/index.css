@@ -17,6 +17,32 @@ html {
   height: 100%;
 }
 
+.info-content svg {
+  color: #bab7b7;
+  font-size: 4rem;
+}
+.info-content {
+  display: flex;
+  justify-content: flex-start;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+
+.info img {
+  max-width: 120px;
+  border-radius: 10px;
+  opacity: 0.3;
+}
+.info p {
+  color: #bab7b7;
+  margin-top: 5px;
+  font-size: 0.7rem;
+  margin-left: 5px;
+}
 .container {
   width: 100%;
   max-width: 1280px;
